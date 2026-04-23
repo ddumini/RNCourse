@@ -1,11 +1,13 @@
-import { StatusBar } from 'expo-status-bar'
-import { StyleSheet, Text, View } from 'react-native'
+import { Button, StyleSheet, Text, View } from 'react-native'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start ddumini!</Text>
-      <StatusBar style='auto' />
+      <View>
+        <Text>Open up App.js to start ddumini!</Text>
+      </View>
+      <Text>OnePiece</Text>
+      <Button title='Do anything yet' onPress={() => alert('Button pressed')} />
     </View>
   )
 }
